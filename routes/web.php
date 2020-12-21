@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/','SearcherKab@index');
+//Route::post('/getElem/','SearcherKab@getEmployees')->name('getElem');
+Route::get('/','SearcherKab@index');
+Route::post('/employees/getEmployees/','SearcherKab@getEmployees')->name('employees.getEmployees');
