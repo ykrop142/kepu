@@ -70,9 +70,9 @@
         <td><h3 style="color: #616161;"> Поинты за 1ед</h3></td>
     </tr>
     <tr>
-        <td><h3><input type="text" id='kol1' value="0" onchange=editnumb()></h3></td>
-        <td><h3><input type="text" id='employee_search1' placeholder="Алмаз"></h3></td>
-        <td><h3><input type="text" id='employeepoints1' readonly></h3></td>
+        <td><h3><input type="text" id='kol1' value="0" onchange=editnumb() size="10" style="font-size: 30px"></h3></td>
+        <td><h3><input type="text" id='employee_search1' placeholder="Алмаз" style="font-size: 30px"></h3></td>
+        <td><h3><input type="text" id='employeepoints1' size="20" readonly style="font-size: 30px"></h3></td>
     </tr>
     <tr>
         <td><h3 style="color: #616161;">Количество покупаемых предметов </h3></td>
@@ -80,9 +80,9 @@
         <td><h3 style="color: #616161;"> Поинты за 1ед</h3></td>
     </tr>
     <tr>
-        <td><h3><input type="text" id='employeepoints3'  readonly></h3></td>
-        <td><h3><input type="text" id='employee_search2' placeholder="Ультиматка"></h3></td>
-        <td><h3><input type="text" id='employeepoints2'  readonly></h3></td>
+        <td><h3><input type="text" id='employeepoints3' size="10" readonly style="font-size: 30px"></h3></td>
+        <td><h3><input type="text" id='employee_search2' placeholder="Ультиматка" style="font-size: 30px"></h3></td>
+        <td><h3><input type="text" id='employeepoints2'  size="20" readonly style="font-size: 30px"></h3></td>
     </tr>
     <tr>
         <td colspan="3"><h3 style="color: #616161;">Наценка в %</h3></td>
@@ -99,7 +99,7 @@ right: 0px;
 bottom: 0px;">by ykrop142</text>
 <script type="text/javascript">
 
-    // CSRF T123oken
+    // CSRF12312312
     var CSRF_TOKEN = $('meta[name="csrf-token"]').attr('content');
     $(document).ready(function(){
 
